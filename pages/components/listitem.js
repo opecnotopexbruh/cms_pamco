@@ -23,7 +23,7 @@ function ListItem() {
             <hr className='h-5'/>
             {
               contacts.map(contact=>(
-                <Item colSpan="5" key={contact.id} id={contact.id} name={contact.name} no={contact.no} createAt={contact.createAt} topic={contact.topic} {...contact}/>
+                <Item key={contact.id} id={contact.id} name={contact.name} no={contact.no} createAt={contact.createAt} topic={contact.topic} {...contact}/>
               ))
             }
         </table>

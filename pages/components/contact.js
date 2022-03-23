@@ -1,5 +1,6 @@
 import React from 'react'
 import ListItem from './listitem'
+import Pagination from './pagination'
 import SearchContact from './searchContact'
 
 
@@ -11,6 +12,8 @@ function Contact() {
 
         {/* Listing all incoming contact */}
         <ListItem />
+
+        <Pagination/>
     </div>
   )
 }

@@ -25,4 +25,16 @@
     .submitBtn{
         @apply border-2 w-52 h-8 rounded-md text-white text-sm font-extralight absolute right-0 -bottom-8 
     }
+    
+    .pageBtn{
+        @apply  w-14 h-14 flex items-center justify-center
+        text-blue-900 rounded-md
+    }
+    .active{
+        @apply bg-orange-400
+    }
+
+    .nextBtn{
+        @apply border-2 border-orange-400 text-orange-400
+    }
 }

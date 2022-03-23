@@ -36,8 +36,8 @@ function Item({id, name, no, createAt, topic, ...props }) {
           />
         </td>
       </tr>
-      <div colSpan="5" className={`${id % 2 == 0 ? `bg-gray-200` : `bg-white`} ${isShow ? "block" : "hidden"} h-20`}>
-        <Details  {...props} />
+      <div className={`${isShow ? "block" : "hidden"} h-20 mb-32 w-full `}>
+        <Details id={id} {...props}/>
       </div>
     </>
   );
