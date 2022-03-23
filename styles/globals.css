@@ -13,4 +13,16 @@
     .topGap{
         @apply mt-10 ml-4
     }
+
+    .inputBar{
+        @apply border-2 xl:w-[200%] md:w-full h-10 rounded-xl 
+    }
+    
+    .inputLabel{
+        @apply text-sm 
+    }
+
+    .submitBtn{
+        @apply border-2 w-52 h-8 rounded-md text-white text-sm font-extralight absolute right-0 -bottom-8 
+    }
 }
