@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Contact from './components/contact'
 import Menu from './components/menu'
 import NewsPromotion from './components/newsPromotion'
 

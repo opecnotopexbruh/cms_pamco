@@ -1,6 +1,6 @@
 import React from 'react'
 import ListItem from './listitem'
-import Pagination from './pagination'
+import Pagination from '../pagination'
 import SearchContact from './searchContact'
 
 

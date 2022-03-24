@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Job from './components/job'
+import Job from './components/job/job'
 import Menu from './components/menu'
+import Pagination from './components/pagination'
 
 export default function jobs() {
   return (
@@ -20,7 +21,6 @@ export default function jobs() {
       {/*Panel*/}
       <Job className='col-span-2'/>
 
-      
     </main>
 
 

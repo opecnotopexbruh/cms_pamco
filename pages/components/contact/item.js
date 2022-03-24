@@ -17,16 +17,16 @@ function Item({id, name, no, createAt, topic, ...props }) {
       <tr
         className={`${id % 2 == 0 ? `bg-gray-200` : `bg-white`} h-20`}
       >
-        <td colSpan="1" className=" w-10">
+        <td colSpan="1" className=" w-10 font-thin">
           {no}
         </td>
-        <td colSpan="1" className=" w-15 text-center">
+        <td colSpan="1" className=" w-15 text-center font-thin">
           {name}
         </td>
-        <td colSpan="1" className=" w-15 text-center">
+        <td colSpan="1" className=" w-15 text-center font-thin">
           {topic}
         </td>
-        <td colSpan="1" className=" w-15 text-center">
+        <td colSpan="1" className=" w-15 text-center font-thin">
           {createAt}
         </td>
         <td colSpan="2" className=" w-40 relative">

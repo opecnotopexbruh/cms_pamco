@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Contact from './components/contact'
+import Contact from './components/contact/contact'
 import Menu from './components/menu'
 
 export default function Home() {

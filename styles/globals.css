@@ -7,7 +7,7 @@
         @apply w-28 h-1 mb-2 mt-7  bg-yellow-500
     }
     .linkNav{
-        @apply text-xl text-blue-400
+        @apply text-xl text-blue-400 font-thin
     }
 
     .topGap{
@@ -15,7 +15,8 @@
     }
 
     .inputBar{
-        @apply border-2 xl:w-[200%] md:w-full h-10 rounded-xl 
+        @apply h-10 xl:w-[150%] md:w-full 
+        
     }
     
     .inputLabel{
@@ -28,10 +29,10 @@
     
     .pageBtn{
         @apply  w-14 h-14 flex items-center justify-center
-        text-blue-900 rounded-md
+        text-blue-900 rounded-md mx-2
     }
     .active{
-        @apply bg-orange-400
+        @apply bg-orange-400 text-white
     }
 
     .nextBtn{
