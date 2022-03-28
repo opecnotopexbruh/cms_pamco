@@ -1,0 +1,53 @@
+[   
+    {
+        "id":1,
+        "title": "Marketing",
+        "maxSalary": 35000,
+        "keyword": "marketing",
+        "category": "fulltime",
+        "jd": "",
+        "location": "bkk",
+        "img": "www.fakeimage.com/fakeimage01",
+        "quantity": 2,
+        "isActive": true,
+        "isDeleted": false
+    },
+    {
+        "id":2,
+        "title": "Human Resource Officer",
+        "maxSalary": 35000,
+        "keyword": "human resource hr ",
+        "category": "fulltime",
+        "location": "khon kaen",
+        "img": "www.fakeimage.com/fakeimage02",
+        "quantity": 2,
+        "isActive": true,
+        "isDeleted": false
+    },
+    {
+        "id":3,
+        "maxSalary": 45000,
+        "title": "Back-end Developer",
+        "keyword": "backend developer",
+        "category": "fulltime",
+        "location": "bkk",
+        "img": "www.fakeimage.com/fakeimage02",
+        "quantity": 3,
+        "isActive": true,
+        "isDeleted": false
+    },
+    {
+        "id":4,
+        "title": "Sale Representative",
+        "maxSalary": 60000,
+        "keyword": "sale sale rep saleperson",
+        "category": "fulltime",
+        "location": "bkk",
+        "img": "www.fakeimage.com/fakeimage02",
+        "quantity":3
+,
+"isActive": true,
+"isDeleted": false        
+    }
+
+]

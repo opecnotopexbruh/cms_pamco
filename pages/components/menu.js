@@ -9,14 +9,14 @@ function Menu() {
         </div>
         <hr className="hr"/>
         <div className="flex flex-col">
-          <Link href="/" ><a className="linkNav">การจัดการ การติดต่อ</a></Link>
-          <Link href="/jobs"><a className="linkNav">การจัดการตำแหน่งงาน</a></Link>
-          <Link href="/candidates"><a className="linkNav">การจัดการผู้สมัครงาน</a></Link>
-          <Link href="/news"><a className="linkNav">การจัดการข่าวสารและโปรโมชั่น</a></Link>
+          <Link href="/" ><a className="linkNav text-base focus:clicked">การจัดการ การติดต่อ</a></Link>
+          <Link href="/jobs"><a className="linkNav text-base focus:clicked">การจัดการตำแหน่งงาน</a></Link>
+          <Link href="/candidates"><a className="linkNav text-base focus:clicked">การจัดการผู้สมัครงาน</a></Link>
+          <Link href="/news"><a className="linkNav text-base">การจัดการข่าวสารและโปรโมชั่น</a></Link>
         </div>
         <hr className="hr" />
         <div>
-          <Link href="/"><a className="text-gray-400 text-lg font-thin">การจัดการผู้ใช้งาน</a></Link>
+          <Link href="/"><a className="text-gray-400 text-base">การจัดการผู้ใช้งาน</a></Link>
       </div>
       </div>
     </div>

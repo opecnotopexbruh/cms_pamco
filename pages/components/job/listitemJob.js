@@ -8,6 +8,7 @@ function ListItem() {
 
   useEffect(() => {
     setContacts(contact_data)
+    
   }, [])
 
   return (

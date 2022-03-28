@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import {useState} from 'react'
 
+
 function SearchJob() {
     const [selects, setSelect] = useState()
     const [keywords, setKeywords] = useState()
@@ -18,7 +19,7 @@ function SearchJob() {
 
     const handleSubmit = (event)=>(
         event.preventDefault(),
-        console.log(keywords,selects)
+        console.log({keywords,selects})
     )
 
   return (

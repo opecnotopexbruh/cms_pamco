@@ -4,7 +4,7 @@ function Details({ id, ...props }) {
     <div
       className={`${
         id % 2 == 0 ? `bg-gray-200` : `bg-white`
-      } mb-20 h-52 w-[44.9%] absolute`}
+      } mb-20 h-52 w-[53.2%] absolute`}
     >
       <div className="flex relative h-20 ml-2">
         <span className="font-thin text-sm">

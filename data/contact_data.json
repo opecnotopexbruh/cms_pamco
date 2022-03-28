@@ -9,7 +9,8 @@
     "phoneNumber":"0906125029",
     "email":"sasiwong.kasantia@gmail.com",
     "callTimeFrom":"12:00",
-    "callTimeTo":"13:00"
+    "callTimeTo":"13:00",
+    "isActive": true
     },
     {
         "id":2,
@@ -21,7 +22,8 @@
         "phoneNumber":"0906125029",
         "email":"sasiwong.kasantia@gmail.com",
         "callTimeFrom":"12:00",
-        "callTimeTo":"13:00"
+        "callTimeTo":"13:00",
+        "isActive": false
     },
     {
         "id":3,

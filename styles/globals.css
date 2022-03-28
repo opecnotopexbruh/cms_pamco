@@ -10,6 +10,10 @@
         @apply text-xl text-blue-400 font-thin
     }
 
+    .clicked{
+        @apply underline
+    }
+
     .topGap{
         @apply mt-10 ml-4
     }
